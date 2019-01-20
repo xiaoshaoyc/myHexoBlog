@@ -1,1 +1,1 @@
-博客的源代码仓库，使用了[Hexo]("https://hexo.io")
+博客的源代码仓库，使用了[Hexo](https://hexo.io)

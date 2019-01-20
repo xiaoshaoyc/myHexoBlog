@@ -1,38 +1,27 @@
 ---
 title: Hello World
+date: 2019-01-20 14:36:29
+tags:
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+时隔将近一年，学业终于告一段落，是时候重新开始写博客了。之前那个博客关闭是因为老板带着他的服务器跑路了，顺便带走了我所有的博文。不过还好我当时做了备份，真没想到竟能排上用场。
 
-## Quick Start
+然后来说说现在这个博客系统。我平时博客写的也不过，如果租一台服务器的话实在显得浪费，所以我决定用Github Pages来搭建这个博客。Github Pages只能展示静态文件，也就意味着Wordpress一类基于PHP的博客系统肯定是不能用了，经过一番搜索，我找到了两个备选目标，[Jekyll][]和[Hexo][]。经过比较，我选择了比较容易上手的Hexo，以后可能会再写一篇博客比较下它们的优劣。
 
-### Create a new post
+这次重新开坑，是为了在多方面提升自己的实力：
 
-``` bash
-$ hexo new "My New Post"
-```
+第一，在我这几年的编程学习中，虽然学到了很多东西，但是一直没有系统性的记录下来，久而久之也忘记了。所以我写博客，也是想把这些学过的东西都记录下来，巩固自己的学习成果，同时把一些心得体会分享给他人。
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+第二，最近我在学习网页制作，Hexo的主题（Theme）对我来说是一个很好的playground，*Talk is cheap. Show me the code.* —— Linus Torvalds(Linux操作系统创始人)，光学不练肯定是不能达到效果的。现在我用的Theme是Hexo自带的，以后我打算自己做一个（或者魔改别人的）
 
-### Run server
+第三，我一直很想学习双拼，写博客是一个练习打字的好机会。虽然打字练习软件也有双拼的练习，但是总的来说还是比较无聊，而且从时间花费来说显然是不划算的。写博客在练习打字的同时还能把自己学习的东西分享给他人，打字这一过程就显得非常有趣了。
 
-``` bash
-$ hexo server
-```
+第四，我一直觉得我的语言能力不强，也许是因为我平常不太爱说话吧。写博客也是强迫自己锻炼语言能力，提高自己的交际能力吧
 
-More info: [Server](https://hexo.io/docs/server.html)
+说完原因，再来谈谈定位。我主要会写自己在编程中踩过的坑和一些感悟（显然我不可能写散文），如果平时看到一些实用的软件，也会推荐给大家。主要面向没有编程经验和编程入门群体（说白了还是我太菜了）
 
-### Generate static files
+想说的大概也说完了，2019年希望我能学到更多计算机方面的知识，同时不能一味的“输入”而不“输出”，新的一年我希望能自己独立编写出一款有价值的软件。在这，我也提前祝大家，**新年快乐！**
 
-``` bash
-$ hexo generate
-```
+![越过山丘](/images/hello_world.jpg)
 
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+[Jekyll]: https://jekyllrb.com/
+[Hexo]: Https://hexo.io
