@@ -1,9 +1,12 @@
 ---
 title: Win10打开Hyper-V对性能的影响
 date: 2020-08-01 15:46:49
+categories:
+  - 软件
 tags:
+  - 测试
 ---
-## 引言
+## 背景
 打算在家里电脑安装Docker，就顺便研究了一下Docker在Windows上运行的原理。其实是用Win10自带的Hyper-V新建了一台虚拟机，`Dockerd`运行在虚拟机上面 (切~~)。
 
 顺便了解了一下现在主流的虚拟化方案，主要有三个：Vmware, VirtualBox, Hyper-V。
