@@ -1,7 +1,11 @@
 ---
 title: 记一次Ubuntu配置DNS
+categories:
+  - null
+date: 2022-09-30 04:24:17
 tags:
 ---
+
 ## 起
 最近玩[NextDNS](https://nextdns.io/zh)玩的很嗨，想让所有的设备都走`DNS over TLS`和`DNS over HTTPS`。在学校的时候发现不能用，后来想起来是学校只允许用内部的DNS服务器，把公网上的全部屏蔽了，有点不爽，以后看看有没有什么办法绕过这个限制，但这个是以后的事情了，今天先讲Ubuntu上碰到的问题。
 
@@ -33,7 +37,7 @@ systemd 245 (245.4-4ubuntu3.15)
 
 ## 伏笔
 运行`resolvectl`查看DNS信息，可以看到Current DNS Server显示为`192.168.100.1`(DHCP中动态获取的)，但是NextDNS也确实收到了查询的请求，难道是进入了Fallback？
-```
+```TEXT
 $ resolvectl 
 Global
          Protocols: -LLMNR -mDNS +DNSOverTLS DNSSEC=no/unsupported
