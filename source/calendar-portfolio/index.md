@@ -6,8 +6,10 @@ date: 2022-12-31 02:45:31
 <div class="markdown-body">
 
 # Link to the project
-https://rpi-smart-calendar.sycnb.work/
-
+- URI: https://rpi-smart-calendar.sycnb.work/
+- *Use any email address to receive the Cloudflare OTP*
+- Username: test
+- Password: CGacZjUZLW9wTud
 
 ## Features
 #### User Control
